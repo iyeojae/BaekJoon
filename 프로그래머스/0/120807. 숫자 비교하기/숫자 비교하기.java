@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
         if(num1 == num2){
             answer = 1;
-        } else
+        } else if(num1 != num2)
             answer = -1;
         return answer;
     }
